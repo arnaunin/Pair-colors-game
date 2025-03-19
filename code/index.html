@@ -6,7 +6,21 @@
     <title>Base Vite Project Sass</title>
   </head>
   <body>
-    <h1>Base Vite Project Sass</h1>
-    <script type="module" src="./src/main.js"></script>
+    <main>
+      <h1>🧠 ¡Juego de Memoria: Encuentra las Parejas! 🎨</h1>
+      <p>
+        Bienvenido al <strong>Juego de Memoria</strong>, donde tu objetivo es encontrar todas las parejas de colores en el menor tiempo posible. Introduce un número de filas y un número de columnas para crear el tablero. Al hacer clic en una, se revelará su color oculto y deberás hacer clic en la otra caja donde creas que está su pareja. Si aciertas, ambas quedarán visibles y ya no podrás interactuar con ellas, pero si fallas, volverán a su estado inicial. Continúa hasta descubrir todas las parejas y completa el desafío lo más rápido que puedas. ¡Pon a prueba tu memoria y diviértete! 🎨🧠⏳
+      </p>
+
+      <p>
+        <button id="reset">Reiniciar</button>
+      </p>
+
+      <hr>
+
+      <h2><span id="timer">00:00:00</span></h2>
+      <section id="game"></section>
+    </main>
+      <script type="module" src="./src/main.js"></script>
   </body>
 </html>
