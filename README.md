@@ -11,6 +11,11 @@ The **Memory Game** challenges you to uncover all the matching color pairs on a 
 
 The game continues until you've successfully matched all the pairs. Try to complete it as quickly as possible!
 
+## Preview
+You can see a preview of the game on **GithubPages** at: 
+[https://arnaunin.github.io/Pair-colors-game/](https://arnaunin.github.io/Pair-colors-game/)
+
+
 ## Features
 
 -   **Customizable Grid:** Set the number of rows and columns to adjust the game's difficulty.
