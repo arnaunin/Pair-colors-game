@@ -1,5 +1,5 @@
 
-#game {
+#boxContainer {
     display: grid;
     // grid-template-columns: repeat(6, 1fr);
     // grid-template-rows: repeat(5, 1fr);
@@ -11,4 +11,12 @@
     height: 50px;
     border-radius: 5px;
     background-color: rgb(41, 41, 41);
+}
+
+h1 {
+    text-align: center;
+}
+
+#instructions {
+    font-size: 18px;
 }

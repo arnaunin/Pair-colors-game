@@ -7,6 +7,5 @@ document.getElementById('reset').addEventListener('click', () => {
 });
 
 let data = Game.getRowsCols();
-
 let game = new Game(data.rows, data.cols, 'game');
 
