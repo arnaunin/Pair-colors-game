@@ -1,8 +1,5 @@
-
 #boxContainer {
     display: grid;
-    // grid-template-columns: repeat(6, 1fr);
-    // grid-template-rows: repeat(5, 1fr);
     gap: 5px;
 }
 
@@ -14,9 +11,30 @@
 }
 
 h1 {
+    font-family: "Press Start 2P", system-ui;;
     text-align: center;
+    font-size: 30px;
 }
 
 #instructions {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5rem;
     font-size: 18px;
 }
+
+#reset {
+    background-color: #FF6DC6;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  
+    &:hover {
+      background-color: #F70A8D; /* Darker green on hover */
+    }
+  }

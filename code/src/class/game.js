@@ -166,14 +166,14 @@ class Game {
       rows = parseInt(localStorage.getItem("rows"));
       cols = parseInt(localStorage.getItem("cols"));
     } else {
-      rows = parseInt(prompt("Introduzca el número de filas"));
-      cols = parseInt(prompt("Introduzca el número de columnas"));
+      rows = parseInt(prompt("Enter the number of rows"));
+      cols = parseInt(prompt("Enter the number of columns"));
       while ((rows * cols) % 2 !== 0) {
         alert(
-          "El número de cartas deben ser par. Vuelva a introducir los datos."
+          "The number of cards must be even. Please re-enter the data."
         );
-        rows = parseInt(prompt("Introduzca el número de filas"));
-        cols = parseInt(prompt("Introduzca el número de columnas"));
+        rows = parseInt(prompt("Enter the number of rows"));
+        cols = parseInt(prompt("Enter the number of columns"));
       }
 
       localStorage.setItem("rows", rows);
@@ -185,6 +185,7 @@ class Game {
       cols: cols,
     };
   }
+
 
   static resetGame() {
     localStorage.removeItem("cols");

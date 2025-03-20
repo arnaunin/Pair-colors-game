@@ -1,0 +1,43 @@
+#boxContainer {
+  display: grid;
+  gap: 5px;
+}
+
+.box {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(241, 22, 22);
+}
+
+h1 {
+  text-align: center;
+}
+
+#instructions {
+  font-size: 18px;
+}
+
+#reset {
+  background-color: #FF6DC6;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+#reset:hover {
+  background-color: #F70A8D; /* Darker green on hover */
+}
+
+body {
+  background-image: url("../assets/img/topography.svg");
+  max-width: 85%;
+  margin: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
