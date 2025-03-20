@@ -36,7 +36,7 @@ class Timer {
     }
 
     this.count = setInterval(() => {
-      if (this.ms == 100) {
+      if (this.ms == 99) {
         this.ms = 0;
         if (this.sec == 59) {
           this.sec = 0;

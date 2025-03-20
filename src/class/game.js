@@ -168,9 +168,9 @@ class Game {
     } else {
       rows = parseInt(prompt("Enter the number of rows"));
       cols = parseInt(prompt("Enter the number of columns"));
-      while ((rows * cols) % 2 !== 0) {
+      while ((rows * cols) % 2 !== 0 || (rows <= 0 || cols <= 0) || (isNaN(rows) || isNaN(cols)) || (rows > 50 || cols > 50)) {
         alert(
-          "The number of cards must be even. Please re-enter the data."
+          "The number of cards is odd or the data is not valid. Please re-enter the data."
         );
         rows = parseInt(prompt("Enter the number of rows"));
         cols = parseInt(prompt("Enter the number of columns"));
